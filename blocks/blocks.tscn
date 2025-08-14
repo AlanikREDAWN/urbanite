@@ -1,0 +1,402 @@
+[gd_scene load_steps=125 format=3 uid="uid://byqdif48vacvf"]
+
+[ext_resource type="PackedScene" uid="uid://beg4crq4i2brs" path="res://Retro Urban Kit/Models/FBX format/balcony-ladder-bottom.fbx" id="1_nagwb"]
+[ext_resource type="PackedScene" uid="uid://67oxmc0qpsys" path="res://Retro Urban Kit/Models/FBX format/balcony-ladder-top.fbx" id="2_gkrwb"]
+[ext_resource type="PackedScene" uid="uid://bf1tvqflm1d5c" path="res://Retro Urban Kit/Models/FBX format/balcony-type-a.fbx" id="3_82slt"]
+[ext_resource type="PackedScene" uid="uid://cd5k6kxnocc3n" path="res://Retro Urban Kit/Models/FBX format/cliff-corner.fbx" id="4_8xieb"]
+[ext_resource type="PackedScene" uid="uid://d2exst56vrhi1" path="res://Retro Urban Kit/Models/FBX format/cliff-side.fbx" id="5_eploh"]
+[ext_resource type="PackedScene" uid="uid://b5jnqx2rj02ux" path="res://Retro Urban Kit/Models/FBX format/detail-awning-small.fbx" id="6_0mcnq"]
+[ext_resource type="PackedScene" uid="uid://bqslvwcygb0ea" path="res://Retro Urban Kit/Models/FBX format/detail-awning-wide.fbx" id="7_vbuu2"]
+[ext_resource type="PackedScene" uid="uid://chpcvge8epvoo" path="res://Retro Urban Kit/Models/FBX format/detail-barrier-strong-damaged.fbx" id="8_aewla"]
+[ext_resource type="PackedScene" uid="uid://cwufig5l6lvbs" path="res://Retro Urban Kit/Models/FBX format/detail-barrier-strong-type-a.fbx" id="9_53bud"]
+[ext_resource type="PackedScene" uid="uid://bos2kamnpjic0" path="res://Retro Urban Kit/Models/FBX format/detail-barrier-strong-type-b.fbx" id="10_6e7jt"]
+[ext_resource type="PackedScene" uid="uid://c8m8mgaj7cy16" path="res://Retro Urban Kit/Models/FBX format/detail-barrier-type-a.fbx" id="11_wk7w8"]
+[ext_resource type="PackedScene" uid="uid://reneg6h72jml" path="res://Retro Urban Kit/Models/FBX format/detail-barrier-type-b.fbx" id="12_qhsbb"]
+[ext_resource type="PackedScene" uid="uid://cx6ydg73wa4dn" path="res://Retro Urban Kit/Models/FBX format/detail-beam.fbx" id="13_5gccf"]
+[ext_resource type="PackedScene" uid="uid://ckgpaqc87yem7" path="res://Retro Urban Kit/Models/FBX format/detail-bench.fbx" id="14_03qbv"]
+[ext_resource type="PackedScene" uid="uid://cwj1abiweglod" path="res://Retro Urban Kit/Models/FBX format/detail-block.fbx" id="15_80khm"]
+[ext_resource type="PackedScene" uid="uid://buuktbcb1orat" path="res://Retro Urban Kit/Models/FBX format/detail-bricks-type-a.fbx" id="16_jokse"]
+[ext_resource type="PackedScene" uid="uid://btcicjnphwvls" path="res://Retro Urban Kit/Models/FBX format/detail-bricks-type-b.fbx" id="17_oh33e"]
+[ext_resource type="PackedScene" uid="uid://b5xnacwca8744" path="res://Retro Urban Kit/Models/FBX format/detail-cables-type-a.fbx" id="18_v6t4n"]
+[ext_resource type="PackedScene" uid="uid://di27bi2jxnwpn" path="res://Retro Urban Kit/Models/FBX format/detail-cables-type-b.fbx" id="19_citsk"]
+[ext_resource type="PackedScene" uid="uid://cnqq0duejnf6y" path="res://Retro Urban Kit/Models/FBX format/detail-dumpster-closed.fbx" id="20_tu06u"]
+[ext_resource type="PackedScene" uid="uid://b6fwb7y1ogumb" path="res://Retro Urban Kit/Models/FBX format/detail-dumpster-open.fbx" id="21_t2jvu"]
+[ext_resource type="PackedScene" uid="uid://bmlx65rambolm" path="res://Retro Urban Kit/Models/FBX format/detail-light-double.fbx" id="22_yft37"]
+[ext_resource type="PackedScene" uid="uid://bb3svinihudip" path="res://Retro Urban Kit/Models/FBX format/detail-light-single.fbx" id="23_a7bsg"]
+[ext_resource type="PackedScene" uid="uid://dtwtifuqyyebp" path="res://Retro Urban Kit/Models/FBX format/detail-light-traffic.fbx" id="24_xq2m6"]
+[ext_resource type="PackedScene" uid="uid://djhkko1t126dr" path="res://Retro Urban Kit/Models/FBX format/door-type-a.fbx" id="25_sm67g"]
+[ext_resource type="PackedScene" uid="uid://bx7ttxtntjtvo" path="res://Retro Urban Kit/Models/FBX format/door-type-b.fbx" id="26_euxe2"]
+[ext_resource type="PackedScene" uid="uid://ur4dnr1hsnv3" path="res://Retro Urban Kit/Models/FBX format/grass-corner-inner.fbx" id="27_cxsli"]
+[ext_resource type="PackedScene" uid="uid://bd1vae3dby2tj" path="res://Retro Urban Kit/Models/FBX format/grass-corner.fbx" id="28_yhjhc"]
+[ext_resource type="PackedScene" uid="uid://cbpq5pow31tmr" path="res://Retro Urban Kit/Models/FBX format/grass-hill.fbx" id="29_gtba8"]
+[ext_resource type="PackedScene" uid="uid://bw3dbgjlb3umo" path="res://Retro Urban Kit/Models/FBX format/grass.fbx" id="30_vaweb"]
+[ext_resource type="PackedScene" uid="uid://b5elbxf7cxlym" path="res://Retro Urban Kit/Models/FBX format/pallet-small.fbx" id="31_pmqah"]
+[ext_resource type="PackedScene" uid="uid://chdjogvc8g67l" path="res://Retro Urban Kit/Models/FBX format/pallet.fbx" id="32_qn78x"]
+[ext_resource type="PackedScene" uid="uid://jhnw27f613bv" path="res://Retro Urban Kit/Models/FBX format/planks.fbx" id="33_p14as"]
+[ext_resource type="PackedScene" uid="uid://ctydl6pq0gydg" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-center.fbx" id="34_nyjnm"]
+[ext_resource type="PackedScene" uid="uid://r8p60citgwwq" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-corner-inner.fbx" id="35_0qbq3"]
+[ext_resource type="PackedScene" uid="uid://cnaf0mh870nw3" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-corner-outer.fbx" id="36_e2j07"]
+[ext_resource type="PackedScene" uid="uid://f3uocuwqp1sk" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-corner.fbx" id="37_36awl"]
+[ext_resource type="PackedScene" uid="uid://deqcp3xbrpdi1" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-damaged.fbx" id="38_768ok"]
+[ext_resource type="PackedScene" uid="uid://0mlbqjfluiju" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-pavement.fbx" id="39_mreyl"]
+[ext_resource type="PackedScene" uid="uid://h8y4gfi5in1k" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-side.fbx" id="40_tk8sd"]
+[ext_resource type="PackedScene" uid="uid://dwlkf43ugvtwi" path="res://Retro Urban Kit/Models/FBX format/road-asphalt-straight.fbx" id="41_ah5ms"]
+[ext_resource type="PackedScene" uid="uid://darhd13uyysbb" path="res://Retro Urban Kit/Models/FBX format/road-dirt-center.fbx" id="42_rbc2u"]
+[ext_resource type="PackedScene" uid="uid://ymb2gfiypk88" path="res://Retro Urban Kit/Models/FBX format/road-dirt-corner-inner.fbx" id="43_q0kqi"]
+[ext_resource type="PackedScene" uid="uid://26x8po6jgavm" path="res://Retro Urban Kit/Models/FBX format/road-dirt-corner-outer.fbx" id="44_5rytx"]
+[ext_resource type="PackedScene" uid="uid://mphel6vrwie8" path="res://Retro Urban Kit/Models/FBX format/road-dirt-corner.fbx" id="45_qejlk"]
+[ext_resource type="PackedScene" uid="uid://dsp2kaswomuxq" path="res://Retro Urban Kit/Models/FBX format/road-dirt-damaged.fbx" id="46_c3dw8"]
+[ext_resource type="PackedScene" uid="uid://c5v2lh6tb3nss" path="res://Retro Urban Kit/Models/FBX format/road-dirt-pavement.fbx" id="47_8mude"]
+[ext_resource type="PackedScene" uid="uid://c3l3m4oax1kd7" path="res://Retro Urban Kit/Models/FBX format/road-dirt-side.fbx" id="48_b6yyl"]
+[ext_resource type="PackedScene" uid="uid://dfuvc1g4seije" path="res://Retro Urban Kit/Models/FBX format/road-dirt-straight.fbx" id="49_2bv2x"]
+[ext_resource type="PackedScene" uid="uid://c7rb1npfuekc1" path="res://Retro Urban Kit/Models/FBX format/road-dirt-tile.fbx" id="50_1yhf7"]
+[ext_resource type="PackedScene" uid="uid://brre5i2tnuuua" path="res://Retro Urban Kit/Models/FBX format/roof-metal-poles.fbx" id="51_gsgvt"]
+[ext_resource type="PackedScene" uid="uid://ctvbr46433u8t" path="res://Retro Urban Kit/Models/FBX format/roof-metal-type-a.fbx" id="52_evp51"]
+[ext_resource type="PackedScene" uid="uid://b6ro8x2qrvgpy" path="res://Retro Urban Kit/Models/FBX format/roof-metal-type-b.fbx" id="53_a0hmx"]
+[ext_resource type="PackedScene" uid="uid://lgdl0fc6sfpo" path="res://Retro Urban Kit/Models/FBX format/scaffolding-floor.fbx" id="54_5xs7a"]
+[ext_resource type="PackedScene" uid="uid://nwekmopxeaf2" path="res://Retro Urban Kit/Models/FBX format/scaffolding-poles.fbx" id="55_3t2as"]
+[ext_resource type="PackedScene" uid="uid://qxgkdfeia5h3" path="res://Retro Urban Kit/Models/FBX format/scaffolding-structure.fbx" id="56_wqyks"]
+[ext_resource type="PackedScene" uid="uid://oj78xubopf6f" path="res://Retro Urban Kit/Models/FBX format/tree-large.fbx" id="57_jak58"]
+[ext_resource type="PackedScene" uid="uid://cupy726uhlscl" path="res://Retro Urban Kit/Models/FBX format/tree-park-large.fbx" id="58_mx3fd"]
+[ext_resource type="PackedScene" uid="uid://ca7fbpdjiibra" path="res://Retro Urban Kit/Models/FBX format/tree-park-pine-large.fbx" id="59_5kf2x"]
+[ext_resource type="PackedScene" uid="uid://b8acnigkshyji" path="res://Retro Urban Kit/Models/FBX format/tree-pine-large.fbx" id="60_kfsnv"]
+[ext_resource type="PackedScene" uid="uid://cwqywym7ps10q" path="res://Retro Urban Kit/Models/FBX format/tree-pine-small.fbx" id="61_wq55w"]
+[ext_resource type="PackedScene" uid="uid://cbcwbpkmwhrig" path="res://Retro Urban Kit/Models/FBX format/tree-shrub.fbx" id="62_e0rfw"]
+[ext_resource type="PackedScene" uid="uid://w7jos78q4gdn" path="res://Retro Urban Kit/Models/FBX format/tree-small.fbx" id="63_j6pbt"]
+[ext_resource type="PackedScene" uid="uid://dmji2l2n2mpg2" path="res://Retro Urban Kit/Models/FBX format/truck-flat.fbx" id="64_87dt6"]
+[ext_resource type="PackedScene" uid="uid://duobsn0sntmjn" path="res://Retro Urban Kit/Models/FBX format/truck-green-cargo.fbx" id="65_gfoop"]
+[ext_resource type="PackedScene" uid="uid://brghv7a42278e" path="res://Retro Urban Kit/Models/FBX format/truck-green.fbx" id="66_ffqyk"]
+[ext_resource type="PackedScene" uid="uid://3eow3krtwsal" path="res://Retro Urban Kit/Models/FBX format/truck-grey-cargo.fbx" id="67_5s6i1"]
+[ext_resource type="PackedScene" uid="uid://bf5hs5tk6yrcx" path="res://Retro Urban Kit/Models/FBX format/truck-grey.fbx" id="68_6kfis"]
+[ext_resource type="PackedScene" uid="uid://cd58s1gkbmw8y" path="res://Retro Urban Kit/Models/FBX format/wall-a-column-painted.fbx" id="69_hrs6l"]
+[ext_resource type="PackedScene" uid="uid://dojf3aiiv2nl0" path="res://Retro Urban Kit/Models/FBX format/wall-a-column.fbx" id="70_n63g1"]
+[ext_resource type="PackedScene" uid="uid://ur2ernf2f8qi" path="res://Retro Urban Kit/Models/FBX format/wall-a-corner-painted.fbx" id="71_axees"]
+[ext_resource type="PackedScene" uid="uid://cc44wevd2dk4q" path="res://Retro Urban Kit/Models/FBX format/wall-a-corner.fbx" id="72_uvyal"]
+[ext_resource type="PackedScene" uid="uid://bjoj1nd1cpr80" path="res://Retro Urban Kit/Models/FBX format/wall-a-detail-painted.fbx" id="73_3a50t"]
+[ext_resource type="PackedScene" uid="uid://c0gd3cx50br61" path="res://Retro Urban Kit/Models/FBX format/wall-a-detail.fbx" id="74_82qg1"]
+[ext_resource type="PackedScene" uid="uid://cf7wwmxw7h88r" path="res://Retro Urban Kit/Models/FBX format/wall-a-diagonal.fbx" id="75_ucwto"]
+[ext_resource type="PackedScene" uid="uid://d13wvorkavqb6" path="res://Retro Urban Kit/Models/FBX format/wall-a-door.fbx" id="76_h5jkq"]
+[ext_resource type="PackedScene" uid="uid://c2vx7i2fhequ0" path="res://Retro Urban Kit/Models/FBX format/wall-a-flat-garage.fbx" id="77_trl52"]
+[ext_resource type="PackedScene" uid="uid://na8q3vqcs31u" path="res://Retro Urban Kit/Models/FBX format/wall-a-flat-painted.fbx" id="78_orpjb"]
+[ext_resource type="PackedScene" uid="uid://crrudem4kkf7o" path="res://Retro Urban Kit/Models/FBX format/wall-a-flat-window.fbx" id="79_357ob"]
+[ext_resource type="PackedScene" uid="uid://cjb32o36hjvlb" path="res://Retro Urban Kit/Models/FBX format/wall-a-flat.fbx" id="80_upbk8"]
+[ext_resource type="PackedScene" uid="uid://bgwqsimx6w0ko" path="res://Retro Urban Kit/Models/FBX format/wall-a-garage.fbx" id="81_fwiik"]
+[ext_resource type="PackedScene" uid="uid://b2giu4aqbdt5b" path="res://Retro Urban Kit/Models/FBX format/wall-a-low-painted.fbx" id="82_foogd"]
+[ext_resource type="PackedScene" uid="uid://d0n858cptutle" path="res://Retro Urban Kit/Models/FBX format/wall-a-low.fbx" id="83_jjipv"]
+[ext_resource type="PackedScene" uid="uid://pmicuxhqx263" path="res://Retro Urban Kit/Models/FBX format/wall-a-open.fbx" id="84_50i82"]
+[ext_resource type="PackedScene" uid="uid://cy7g13pr6mi1x" path="res://Retro Urban Kit/Models/FBX format/wall-a-painted-diagonal.fbx" id="85_c85ih"]
+[ext_resource type="PackedScene" uid="uid://c75cuf8myqmff" path="res://Retro Urban Kit/Models/FBX format/wall-a-painted.fbx" id="86_pfhil"]
+[ext_resource type="PackedScene" uid="uid://cxojwtgth06iw" path="res://Retro Urban Kit/Models/FBX format/wall-a-roof-detailed.fbx" id="87_la82g"]
+[ext_resource type="PackedScene" uid="uid://c5nfbx522c3xu" path="res://Retro Urban Kit/Models/FBX format/wall-a-roof-slant-detailed.fbx" id="88_kyl2k"]
+[ext_resource type="PackedScene" uid="uid://dhy2plfj0wpr" path="res://Retro Urban Kit/Models/FBX format/wall-a-roof-slant.fbx" id="89_0h7eg"]
+[ext_resource type="PackedScene" uid="uid://do76awsbttwxd" path="res://Retro Urban Kit/Models/FBX format/wall-a-roof.fbx" id="90_0ij08"]
+[ext_resource type="PackedScene" uid="uid://b6dap4h7c4nyw" path="res://Retro Urban Kit/Models/FBX format/wall-a-window.fbx" id="91_mkacv"]
+[ext_resource type="PackedScene" uid="uid://26vnlowqbno7" path="res://Retro Urban Kit/Models/FBX format/wall-a.fbx" id="92_r5wjo"]
+[ext_resource type="PackedScene" uid="uid://ci5qg5vepmcnq" path="res://Retro Urban Kit/Models/FBX format/wall-b-column.fbx" id="93_bhxwa"]
+[ext_resource type="PackedScene" uid="uid://dbyor4xwstoxv" path="res://Retro Urban Kit/Models/FBX format/wall-b-corner.fbx" id="94_sppmu"]
+[ext_resource type="PackedScene" uid="uid://d1ybq54nrm84w" path="res://Retro Urban Kit/Models/FBX format/wall-b-detail-painted.fbx" id="95_cvfdb"]
+[ext_resource type="PackedScene" uid="uid://cubwhksq4mi8d" path="res://Retro Urban Kit/Models/FBX format/wall-b-diagonal.fbx" id="96_um62x"]
+[ext_resource type="PackedScene" uid="uid://dwroe8sydexp5" path="res://Retro Urban Kit/Models/FBX format/wall-b-door.fbx" id="97_mc3v0"]
+[ext_resource type="PackedScene" uid="uid://b8kjulat2ma45" path="res://Retro Urban Kit/Models/FBX format/wall-b-flat-garage.fbx" id="98_tqbk3"]
+[ext_resource type="PackedScene" uid="uid://umvg3fumhvqe" path="res://Retro Urban Kit/Models/FBX format/wall-b-flat-window.fbx" id="99_l4ypd"]
+[ext_resource type="PackedScene" uid="uid://dvygivp56lfc0" path="res://Retro Urban Kit/Models/FBX format/wall-b-flat.fbx" id="100_sqhb5"]
+[ext_resource type="PackedScene" uid="uid://cygomk3pujuq8" path="res://Retro Urban Kit/Models/FBX format/wall-b-garage.fbx" id="101_5ruuu"]
+[ext_resource type="PackedScene" uid="uid://djtbucdtpfkpf" path="res://Retro Urban Kit/Models/FBX format/wall-b-low.fbx" id="102_pvc0w"]
+[ext_resource type="PackedScene" uid="uid://c320nr650id3j" path="res://Retro Urban Kit/Models/FBX format/wall-b-open.fbx" id="103_nmjir"]
+[ext_resource type="PackedScene" uid="uid://c2tsk0kh21atu" path="res://Retro Urban Kit/Models/FBX format/wall-b-roof-detailed.fbx" id="104_45r02"]
+[ext_resource type="PackedScene" uid="uid://dcpqwt0lqbjs7" path="res://Retro Urban Kit/Models/FBX format/wall-b-roof-slant-detailed.fbx" id="105_7vogk"]
+[ext_resource type="PackedScene" uid="uid://darcpyahjq4hh" path="res://Retro Urban Kit/Models/FBX format/wall-b-roof-slant.fbx" id="106_wsov1"]
+[ext_resource type="PackedScene" uid="uid://bsuxs6edr4a43" path="res://Retro Urban Kit/Models/FBX format/wall-b-roof.fbx" id="107_qtkpn"]
+[ext_resource type="PackedScene" uid="uid://dtx0hkxfnmp2c" path="res://Retro Urban Kit/Models/FBX format/wall-b-window.fbx" id="108_75xrd"]
+[ext_resource type="PackedScene" uid="uid://b1n33vbxu7an4" path="res://Retro Urban Kit/Models/FBX format/wall-b.fbx" id="109_0lfsa"]
+[ext_resource type="PackedScene" uid="uid://deni4naemw7oi" path="res://Retro Urban Kit/Models/FBX format/wall-broken-type-a.fbx" id="110_q1p63"]
+[ext_resource type="PackedScene" uid="uid://b64ebnf232xn5" path="res://Retro Urban Kit/Models/FBX format/wall-broken-type-b.fbx" id="111_a7nmf"]
+[ext_resource type="PackedScene" uid="uid://cjqgp20h6m0ck" path="res://Retro Urban Kit/Models/FBX format/wall-c-flat-low.fbx" id="112_nkq86"]
+[ext_resource type="PackedScene" uid="uid://dhxooku1cu5u1" path="res://Retro Urban Kit/Models/FBX format/wall-c-flat.fbx" id="113_4y358"]
+[ext_resource type="PackedScene" uid="uid://bn1ix24axr5kl" path="res://Retro Urban Kit/Models/FBX format/wall-fence.fbx" id="114_0oc1m"]
+[ext_resource type="PackedScene" uid="uid://ggr81p5ae465" path="res://Retro Urban Kit/Models/FBX format/wall-steps-type-a.fbx" id="115_lqbiq"]
+[ext_resource type="PackedScene" uid="uid://ctv8q20ckqqqa" path="res://Retro Urban Kit/Models/FBX format/wall-steps-type-b.fbx" id="116_uso6e"]
+[ext_resource type="PackedScene" uid="uid://c0ouf0g3yjikx" path="res://Retro Urban Kit/Models/FBX format/wall-type-a.fbx" id="117_206w7"]
+[ext_resource type="PackedScene" uid="uid://dh041j032w2ho" path="res://Retro Urban Kit/Models/FBX format/wall-type-b.fbx" id="118_surfl"]
+[ext_resource type="PackedScene" uid="uid://cjhyglem2qid4" path="res://Retro Urban Kit/Models/FBX format/window-small-type-a.fbx" id="119_85k46"]
+[ext_resource type="PackedScene" uid="uid://ccqn25mgmip08" path="res://Retro Urban Kit/Models/FBX format/window-small-type-b.fbx" id="120_se0mi"]
+[ext_resource type="PackedScene" uid="uid://dgpl4ujswbo3d" path="res://Retro Urban Kit/Models/FBX format/window-wide-type-a.fbx" id="121_ywj60"]
+[ext_resource type="PackedScene" uid="uid://b6kkdqdktpwns" path="res://Retro Urban Kit/Models/FBX format/window-wide-type-b.fbx" id="122_u7adv"]
+[ext_resource type="PackedScene" uid="uid://bjyck5nyosoql" path="res://Retro Urban Kit/Models/FBX format/window-wide-type-c.fbx" id="123_8bptj"]
+[ext_resource type="PackedScene" uid="uid://corv86vfbokr2" path="res://Retro Urban Kit/Models/FBX format/window-wide-type-d.fbx" id="124_kokiy"]
+
+[node name="blocks" type="Node3D"]
+
+[node name="balcony-ladder-bottom" parent="." instance=ExtResource("1_nagwb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.01938, 0, 0)
+
+[node name="balcony-ladder-top" parent="." instance=ExtResource("2_gkrwb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.22876, 0, 0)
+
+[node name="balcony-type-a" parent="." instance=ExtResource("3_82slt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.20791, 0, 0)
+
+[node name="cliff-corner" parent="." instance=ExtResource("4_8xieb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.97726, 0, -1.54629)
+
+[node name="cliff-side" parent="." instance=ExtResource("5_eploh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6976, 0, -1.56527)
+
+[node name="detail-awning-small" parent="." instance=ExtResource("6_0mcnq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.93096, 0, 1.10339)
+
+[node name="detail-awning-wide" parent="." instance=ExtResource("7_vbuu2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.32429, 0, 1.12478)
+
+[node name="detail-barrier-strong-damaged" parent="." instance=ExtResource("8_aewla")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.83067, 0, 1.80886)
+
+[node name="detail-barrier-strong-type-a" parent="." instance=ExtResource("9_53bud")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.24575, 0, 1.85288)
+
+[node name="detail-barrier-strong-type-b" parent="." instance=ExtResource("10_6e7jt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.35424, 0, 1.8136)
+
+[node name="detail-barrier-type-a" parent="." instance=ExtResource("11_wk7w8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6678, 0, 1.84087)
+
+[node name="detail-barrier-type-b" parent="." instance=ExtResource("12_qhsbb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.84949, 0, 1.84268)
+
+[node name="detail-beam" parent="." instance=ExtResource("13_5gccf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.83881, 0, 2.84324)
+
+[node name="detail-bench" parent="." instance=ExtResource("14_03qbv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.14728, 0, 2.69421)
+
+[node name="detail-block" parent="." instance=ExtResource("15_80khm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45531, 0, 1.1847)
+
+[node name="detail-bricks-type-a" parent="." instance=ExtResource("16_jokse")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.66456, 0, 0.919497)
+
+[node name="detail-bricks-type-b" parent="." instance=ExtResource("17_oh33e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.61755, 0, 0)
+
+[node name="detail-cables-type-a" parent="." instance=ExtResource("18_v6t4n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.32601, 0, -1.66246)
+
+[node name="detail-cables-type-b" parent="." instance=ExtResource("19_citsk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.79405, 0, -1.63004)
+
+[node name="detail-dumpster-closed" parent="." instance=ExtResource("20_tu06u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.43167, 0, -1.57731)
+
+[node name="detail-dumpster-open" parent="." instance=ExtResource("21_t2jvu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.77931, 0, 0)
+
+[node name="detail-light-double" parent="." instance=ExtResource("22_yft37")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.47761, 0, 2.12085)
+
+[node name="detail-light-single" parent="." instance=ExtResource("23_a7bsg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.75286)
+
+[node name="detail-light-traffic" parent="." instance=ExtResource("24_xq2m6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.78808)
+
+[node name="door-type-a" parent="." instance=ExtResource("25_sm67g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.32433)
+
+[node name="door-type-b" parent="." instance=ExtResource("26_euxe2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.31783, 0, 0)
+
+[node name="grass-corner-inner" parent="." instance=ExtResource("27_cxsli")]
+
+[node name="grass-corner" parent="." instance=ExtResource("28_yhjhc")]
+
+[node name="grass-hill" parent="." instance=ExtResource("29_gtba8")]
+
+[node name="grass" parent="." instance=ExtResource("30_vaweb")]
+
+[node name="pallet-small" parent="." instance=ExtResource("31_pmqah")]
+
+[node name="pallet" parent="." instance=ExtResource("32_qn78x")]
+
+[node name="planks" parent="." instance=ExtResource("33_p14as")]
+
+[node name="road-asphalt-center" parent="." instance=ExtResource("34_nyjnm")]
+
+[node name="road-asphalt-corner-inner" parent="." instance=ExtResource("35_0qbq3")]
+
+[node name="road-asphalt-corner-outer" parent="." instance=ExtResource("36_e2j07")]
+
+[node name="road-asphalt-corner" parent="." instance=ExtResource("37_36awl")]
+
+[node name="road-asphalt-damaged" parent="." instance=ExtResource("38_768ok")]
+
+[node name="road-asphalt-pavement" parent="." instance=ExtResource("39_mreyl")]
+
+[node name="road-asphalt-side" parent="." instance=ExtResource("40_tk8sd")]
+
+[node name="road-asphalt-straight" parent="." instance=ExtResource("41_ah5ms")]
+
+[node name="road-dirt-center" parent="." instance=ExtResource("42_rbc2u")]
+
+[node name="road-dirt-corner-inner" parent="." instance=ExtResource("43_q0kqi")]
+
+[node name="road-dirt-corner-outer" parent="." instance=ExtResource("44_5rytx")]
+
+[node name="road-dirt-corner" parent="." instance=ExtResource("45_qejlk")]
+
+[node name="road-dirt-damaged" parent="." instance=ExtResource("46_c3dw8")]
+
+[node name="road-dirt-pavement" parent="." instance=ExtResource("47_8mude")]
+
+[node name="road-dirt-side" parent="." instance=ExtResource("48_b6yyl")]
+
+[node name="road-dirt-straight" parent="." instance=ExtResource("49_2bv2x")]
+
+[node name="road-dirt-tile" parent="." instance=ExtResource("50_1yhf7")]
+
+[node name="roof-metal-poles" parent="." instance=ExtResource("51_gsgvt")]
+
+[node name="roof-metal-type-a" parent="." instance=ExtResource("52_evp51")]
+
+[node name="roof-metal-type-b" parent="." instance=ExtResource("53_a0hmx")]
+
+[node name="scaffolding-floor" parent="." instance=ExtResource("54_5xs7a")]
+
+[node name="scaffolding-poles" parent="." instance=ExtResource("55_3t2as")]
+
+[node name="scaffolding-structure" parent="." instance=ExtResource("56_wqyks")]
+
+[node name="tree-large" parent="." instance=ExtResource("57_jak58")]
+
+[node name="tree-park-large" parent="." instance=ExtResource("58_mx3fd")]
+
+[node name="tree-park-pine-large" parent="." instance=ExtResource("59_5kf2x")]
+
+[node name="tree-pine-large" parent="." instance=ExtResource("60_kfsnv")]
+
+[node name="tree-pine-small" parent="." instance=ExtResource("61_wq55w")]
+
+[node name="tree-shrub" parent="." instance=ExtResource("62_e0rfw")]
+
+[node name="tree-small" parent="." instance=ExtResource("63_j6pbt")]
+
+[node name="truck-flat" parent="." instance=ExtResource("64_87dt6")]
+
+[node name="truck-green-cargo" parent="." instance=ExtResource("65_gfoop")]
+
+[node name="truck-green" parent="." instance=ExtResource("66_ffqyk")]
+
+[node name="truck-grey-cargo" parent="." instance=ExtResource("67_5s6i1")]
+
+[node name="truck-grey" parent="." instance=ExtResource("68_6kfis")]
+
+[node name="wall-a-column-painted" parent="." instance=ExtResource("69_hrs6l")]
+
+[node name="wall-a-column" parent="." instance=ExtResource("70_n63g1")]
+
+[node name="wall-a-corner-painted" parent="." instance=ExtResource("71_axees")]
+
+[node name="wall-a-corner" parent="." instance=ExtResource("72_uvyal")]
+
+[node name="wall-a-detail-painted" parent="." instance=ExtResource("73_3a50t")]
+
+[node name="wall-a-detail" parent="." instance=ExtResource("74_82qg1")]
+
+[node name="wall-a-diagonal" parent="." instance=ExtResource("75_ucwto")]
+
+[node name="wall-a-door" parent="." instance=ExtResource("76_h5jkq")]
+
+[node name="wall-a-flat-garage" parent="." instance=ExtResource("77_trl52")]
+
+[node name="wall-a-flat-painted" parent="." instance=ExtResource("78_orpjb")]
+
+[node name="wall-a-flat-window" parent="." instance=ExtResource("79_357ob")]
+
+[node name="wall-a-flat" parent="." instance=ExtResource("80_upbk8")]
+
+[node name="wall-a-garage" parent="." instance=ExtResource("81_fwiik")]
+
+[node name="wall-a-low-painted" parent="." instance=ExtResource("82_foogd")]
+
+[node name="wall-a-low" parent="." instance=ExtResource("83_jjipv")]
+
+[node name="wall-a-open" parent="." instance=ExtResource("84_50i82")]
+
+[node name="wall-a-painted-diagonal" parent="." instance=ExtResource("85_c85ih")]
+
+[node name="wall-a-painted" parent="." instance=ExtResource("86_pfhil")]
+
+[node name="wall-a-roof-detailed" parent="." instance=ExtResource("87_la82g")]
+
+[node name="wall-a-roof-slant-detailed" parent="." instance=ExtResource("88_kyl2k")]
+
+[node name="wall-a-roof-slant" parent="." instance=ExtResource("89_0h7eg")]
+
+[node name="wall-a-roof" parent="." instance=ExtResource("90_0ij08")]
+
+[node name="wall-a-window" parent="." instance=ExtResource("91_mkacv")]
+
+[node name="wall-a" parent="." instance=ExtResource("92_r5wjo")]
+
+[node name="wall-b-column" parent="." instance=ExtResource("93_bhxwa")]
+
+[node name="wall-b-corner" parent="." instance=ExtResource("94_sppmu")]
+
+[node name="wall-b-detail-painted" parent="." instance=ExtResource("95_cvfdb")]
+
+[node name="wall-b-diagonal" parent="." instance=ExtResource("96_um62x")]
+
+[node name="wall-b-door" parent="." instance=ExtResource("97_mc3v0")]
+
+[node name="wall-b-flat-garage" parent="." instance=ExtResource("98_tqbk3")]
+
+[node name="wall-b-flat-window" parent="." instance=ExtResource("99_l4ypd")]
+
+[node name="wall-b-flat" parent="." instance=ExtResource("100_sqhb5")]
+
+[node name="wall-b-garage" parent="." instance=ExtResource("101_5ruuu")]
+
+[node name="wall-b-low" parent="." instance=ExtResource("102_pvc0w")]
+
+[node name="wall-b-open" parent="." instance=ExtResource("103_nmjir")]
+
+[node name="wall-b-roof-detailed" parent="." instance=ExtResource("104_45r02")]
+
+[node name="wall-b-roof-slant-detailed" parent="." instance=ExtResource("105_7vogk")]
+
+[node name="wall-b-roof-slant" parent="." instance=ExtResource("106_wsov1")]
+
+[node name="wall-b-roof" parent="." instance=ExtResource("107_qtkpn")]
+
+[node name="wall-b-window" parent="." instance=ExtResource("108_75xrd")]
+
+[node name="wall-b" parent="." instance=ExtResource("109_0lfsa")]
+
+[node name="wall-broken-type-a" parent="." instance=ExtResource("110_q1p63")]
+
+[node name="wall-broken-type-b" parent="." instance=ExtResource("111_a7nmf")]
+
+[node name="wall-c-flat-low" parent="." instance=ExtResource("112_nkq86")]
+
+[node name="wall-c-flat" parent="." instance=ExtResource("113_4y358")]
+
+[node name="wall-fence" parent="." instance=ExtResource("114_0oc1m")]
+
+[node name="wall-steps-type-a" parent="." instance=ExtResource("115_lqbiq")]
+
+[node name="wall-steps-type-b" parent="." instance=ExtResource("116_uso6e")]
+
+[node name="wall-type-a" parent="." instance=ExtResource("117_206w7")]
+
+[node name="wall-type-b" parent="." instance=ExtResource("118_surfl")]
+
+[node name="window-small-type-a" parent="." instance=ExtResource("119_85k46")]
+
+[node name="window-small-type-b" parent="." instance=ExtResource("120_se0mi")]
+
+[node name="window-wide-type-a" parent="." instance=ExtResource("121_ywj60")]
+
+[node name="window-wide-type-b" parent="." instance=ExtResource("122_u7adv")]
+
+[node name="window-wide-type-c" parent="." instance=ExtResource("123_8bptj")]
+
+[node name="window-wide-type-d" parent="." instance=ExtResource("124_kokiy")]

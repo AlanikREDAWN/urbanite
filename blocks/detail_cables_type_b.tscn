@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bohwq32cf6hga"]
+
+[ext_resource type="PackedScene" uid="uid://di27bi2jxnwpn" path="res://Retro Urban Kit/Models/FBX format/detail-cables-type-b.fbx" id="1_tc537"]
+
+[node name="detail-cables-type-b" instance=ExtResource("1_tc537")]

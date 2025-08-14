@@ -1,0 +1,56 @@
+[gd_scene load_steps=8 format=3 uid="uid://fa8r1idf2b23"]
+
+[ext_resource type="PackedScene" uid="uid://bf1tvqflm1d5c" path="res://Retro Urban Kit/Models/FBX format/balcony-type-a.fbx" id="1_64rft"]
+[ext_resource type="PackedScene" uid="uid://beg4crq4i2brs" path="res://Retro Urban Kit/Models/FBX format/balcony-ladder-bottom.fbx" id="2_8iqky"]
+[ext_resource type="PackedScene" uid="uid://67oxmc0qpsys" path="res://Retro Urban Kit/Models/FBX format/balcony-ladder-top.fbx" id="3_objl5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4fm62"]
+size = Vector3(2, 2, 2)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_0kkvc"]
+data = PackedVector3Array(-1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1, 1, -1, -1, 1, -1, 1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, -1, 1, -1, -1, 1, -1, 1, -1, 1, -1, -1, 1, 1, -1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, -1, 1, 1, -1, -1, -1, 1, 1, -1, 1, -1, -1, -1, 1, -1, 1, 1, -1, -1, -1, -1, -1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8sly2"]
+albedo_color = Color(1, 0, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6x4o"]
+albedo_color = Color(0, 1, 1, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="balcony-type-a" parent="." instance=ExtResource("1_64rft")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.863, 0, 0)
+
+[node name="block-1" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_4fm62")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="block-1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="block-1/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_0kkvc")
+
+[node name="block-2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.55823)
+mesh = SubResource("BoxMesh_4fm62")
+surface_material_override/0 = SubResource("StandardMaterial3D_8sly2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="block-2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="block-2/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_0kkvc")
+
+[node name="block-3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7.15948)
+mesh = SubResource("BoxMesh_4fm62")
+surface_material_override/0 = SubResource("StandardMaterial3D_o6x4o")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="block-3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="block-3/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_0kkvc")
+
+[node name="balcony-ladder-bottom" parent="." instance=ExtResource("2_8iqky")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.91495, 0, 0)
+
+[node name="balcony-ladder-top" parent="." instance=ExtResource("3_objl5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.38476, 0, 0)
